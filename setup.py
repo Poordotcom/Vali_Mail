@@ -4,7 +4,7 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setup(
-    name='ValiMail',
+    name='valimail',
     version='0.1.2',
     description='A library for advanced email verification.',
     author='Adel Faisal',
