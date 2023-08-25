@@ -15,14 +15,14 @@ ValiMail is a library designed for advanced and effective verification of email 
 You can install the library using the following command:
 
 ```python
-pip install ValiMail
+pip install valimail
 ```
 
 ## How To Use
 
 # Import the library
 ```python
-from ValiMail import vali_mail, check_domain_name, check_if_known,is_dispose_email
+from valimail import vali_mail, check_domain_name, check_if_known,is_dispose_email
 ```
 
 # Use library functions to check email addresses
