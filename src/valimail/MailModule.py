@@ -49,7 +49,7 @@ def read_domains_from_file(file_path):
                 domains.append(domain)
     return domains
 
-KNOWN_SERVICES = read_domains_from_file('src/data/file.txt')
+KNOWN_SERVICES = read_domains_from_file('src/valimail/data/file.txt')
 
 def check_if_known(email):
     domain = email.split('@')[1]
