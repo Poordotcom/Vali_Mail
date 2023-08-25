@@ -1,18 +1,18 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setup(
     name='ValiMail',
-    version='0.1.0',
+    version='0.1.1',
     description='A library for advanced email verification.',
     author='Adel Faisal',
     author_email='Tomclans002@email.com',
-    packages=find_packages(),
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/Poordotcom/Vali_Mail',
+    packages=['valimail'],
     install_requires=[
         "requests",
         "disposable-email-domains",
