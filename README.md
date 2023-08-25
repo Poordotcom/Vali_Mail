@@ -14,7 +14,7 @@ ValiMail is a library designed for advanced and effective verification of email 
 
 You can install the library using the following command:
 
-```bash
+```python
 pip install ValiMail
 ```
 
