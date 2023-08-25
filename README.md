@@ -43,3 +43,12 @@ print(f"Is blacklisted: {is_dispose}")
 ```
 
 #Ihad Been Added The RealTime Examples in The File example.py
+
+
+## Documentation
+
+For detailed documentation and examples, please refer to the [official documentation](#).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
