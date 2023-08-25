@@ -16,28 +16,30 @@ You can install the library using the following command:
 
 ```bash
 pip install ValiMail
+```
 
-
-################################
-#         How to Use           #
-################################
+## How To Use
 
 # Import the library
+```python
 from ValiMail import vali_mail, check_domain_name, check_if_known,is_dispose_email
-
+```
 
 # Use library functions to check email addresses
 
+```python
 email = "example@email.com"
 is_valid = vali_mail(email)
 is_in_database = check_if_known(email)
 is_valid_domain = check_domain_name(email)
 is_dispose = is_dispose_email(email)
-
+```
+```python
 # Print the results
 print(f"Is valid email: {is_valid}")
 print(f"Is in database: {is_in_database}")
 print(f"Has valid domain: {is_valid_domain}")
 print(f"Is blacklisted: {is_dispose}")
+```
 
 #Ihad Been Added The RealTime Examples in The File example.py
