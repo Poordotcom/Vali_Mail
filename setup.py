@@ -1,5 +1,10 @@
 from setuptools import setup, find_packages
 
+with open('README.md', 'r') as fh:
+    long_description = fh.read()
+with open('requirements.txt','r') as fr:
+    requires = fr.read().split('\n')
+
 setup(
     name='ValiMail',
     version='0.1.0',
