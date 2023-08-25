@@ -12,6 +12,8 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/Poordotcom/Vali_Mail',
+    package_dir={"":"src"},
+    packages=setuptools.find_packages("src"),
     packages=['valimail'],
     install_requires=[
         "requests",
