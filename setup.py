@@ -1,3 +1,4 @@
+import setuptools
 from setuptools import setup
 
 with open('README.md', 'r') as fh:
@@ -14,7 +15,6 @@ setup(
     url='https://github.com/Poordotcom/Vali_Mail',
     package_dir={"":"src"},
     packages=setuptools.find_packages("src"),
-    packages=['valimail'],
     install_requires=[
         "requests",
         "disposable-email-domains",
