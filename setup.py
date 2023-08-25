@@ -2,8 +2,6 @@ from setuptools import setup, find_packages
 
 with open('README.md', 'r') as fh:
     long_description = fh.read()
-with open('requirements.txt','r') as fr:
-    requires = fr.read().split('\n')
 
 setup(
     name='ValiMail',
@@ -12,6 +10,9 @@ setup(
     author='Adel Faisal',
     author_email='Tomclans002@email.com',
     packages=find_packages(),
+    long_description=long_description,
+    long_description_content_type='text/markdown',
+    url='https://github.com/Poordotcom/Vali_Mail',
     install_requires=[
         "requests",
         "disposable-email-domains",
