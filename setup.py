@@ -6,7 +6,7 @@ with open('README.md', 'r') as fh:
 
 setup(
     name='valimail',
-    version='0.1.2',
+    version='0.1.3',
     description='A library for advanced email verification.',
     author='Adel Faisal',
     author_email='Tomclans002@email.com',
