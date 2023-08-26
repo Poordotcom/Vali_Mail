@@ -52,7 +52,7 @@ def read_domains_from_file(file_path):
 
 # تحديد مسار المجلد الحالي أو المسار المطلوب
 current_path = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(current_path, 'file.txt')
+file_path = os.path.join(current_path, 'file.py')
 
 # استخدام الدالة باستخدام المسار الصحيح للملف
 KNOWN_SERVICES = read_domains_from_file(file_path)
