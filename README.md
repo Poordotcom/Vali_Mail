@@ -1,5 +1,8 @@
 # ValiMail - Email Verification Library
 
+![License](https://img.shields.io/pypi/l/valimail)
+![PyPI](https://img.shields.io/pypi/v/valimail)
+
 ValiMail is a library designed for advanced and effective verification of email addresses.
 
 ## Features
