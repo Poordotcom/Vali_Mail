@@ -25,7 +25,7 @@ pip install valimail
 
 # Import the library
 ```python
-from valimail import vali_mail, check_domain_name, check_if_known,is_dispose_email
+from valimail.MailMoudel import vali_mail, check_domain_name, check_if_known,is_dispose_email
 ```
 
 # Use library functions to check email addresses
